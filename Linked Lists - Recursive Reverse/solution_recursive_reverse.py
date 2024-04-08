@@ -4,6 +4,7 @@ class Node(object):
         self.next = None
 
 def reverse(head):
+    """reverse linked list"""
     prev = None
     current = head
     while current is not None:
